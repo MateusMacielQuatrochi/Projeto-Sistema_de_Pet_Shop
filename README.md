@@ -43,6 +43,7 @@ Credenciais Padrão de Teste:
 
 ⚙️ Funcionalidades Implementadas
 ---
+
 * Autenticação Avançada: Login seguro com expiração de sessão inativa após 30 minutos.
 
 * Validação de Formulários Server-Side: Os métodos POST de cadastro analisam se há campos vazios e renderizam alertas dinâmicos em Bootstrap na tela do usuário caso faltem dados.
@@ -53,6 +54,7 @@ Credenciais Padrão de Teste:
 
 🚀 Como Executar o Projeto
 ---
+
 Pré-requisitos
 
 Certifique-se de possuir o Node.js (versão 18 ou superior recomendada) instalado em seu computador.
@@ -80,4 +82,5 @@ Plaintext
 
 📄 Licença
 ---
+
 Este projeto é distribuído sob a licença ISC.
