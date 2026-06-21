@@ -31,7 +31,7 @@ O fluxo do sistema integra o cadastro de **Interessados (Adotantes)**, o cadastr
 ```
 
 🔐 Segurança e Regras de Autenticação
----
+
 O sistema possui uma camada de proteção por meio de Middleware (usuarioEstaAutenticado). Caso uma rota protegida seja acessada sem uma sessão válida, o usuário é imediatamente redirecionado para a tela de login.
 Credenciais Padrão de Teste:
 
@@ -39,37 +39,31 @@ Credenciais Padrão de Teste:
 
     Senha: 123
 
-💡 Rastreamento por Cookies: Ao efetuar o login, o sistema gera um cookie seguro (dataUltimoAcesso) com expiração automática para 30 dias, exibindo a data e hora do seu último acesso em todas as páginas visitadas.
+    💡 Rastreamento por Cookies: Ao efetuar o login, o sistema gera um cookie seguro (dataUltimoAcesso) com expiração automática para 30 dias, exibindo a data e hora do seu último acesso em todas as páginas visitadas.
 
 ⚙️ Funcionalidades Implementadas
----
 
-* Autenticação Avançada: Login seguro com expiração de sessão inativa após 30 minutos.
+    Autenticação Avançada: Login seguro com expiração de sessão inativa após 30 minutos.
 
-* Validação de Formulários Server-Side: Os métodos POST de cadastro analisam se há campos vazios e renderizam alertas dinâmicos em Bootstrap na tela do usuário caso faltem dados.
+    Validação de Formulários Server-Side: Os métodos POST de cadastro analisam se há campos vazios e renderizam alertas dinâmicos em Bootstrap na tela do usuário caso faltem dados.
 
-* Mapeamento Relacional de Adoção: Na tela de Manifestação de Desejo, o sistema consome os vetores em memória para alimentar caixas de seleção dinâmicas (<select>), permitindo associar qualquer adotante       cadastrado a um animal específico.
+    Mapeamento Relacional de Adoção: Na tela de Manifestação de Desejo, o sistema consome os vetores em memória para alimentar caixas de seleção dinâmicas (<select>), permitindo associar qualquer adotante cadastrado a um animal específico.
 
-* Listagens em Tempo Real: Exibição estruturada em formato de tabelas responsivas para todos os dados inseridos em tempo de execução.
+    Listagens em Tempo Real: Exibição estruturada em formato de tabelas responsivas para todos os dados inseridos em tempo de execução.
 
 🚀 Como Executar o Projeto
----
-
 Pré-requisitos
 
 Certifique-se de possuir o Node.js (versão 18 ou superior recomendada) instalado em seu computador.
-
 1. Instalar as Dependências
 
 Abra o terminal na pasta raiz do projeto e instale os pacotes listados no package.json:
-Bash
 
     npm install
 
 2. Iniciar o Servidor
 
 Execute o comando padrão para subir a aplicação:
-Bash
 
     node index.js
 
