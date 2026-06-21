@@ -43,13 +43,13 @@ Credenciais Padrão de Teste:
 
 ⚙️ Funcionalidades Implementadas
 ---
-* Autenticação Avançada: Login seguro com expiração de sessão inativa após 30 minutos.
+    Autenticação Avançada: Login seguro com expiração de sessão inativa após 30 minutos.
 
-* Validação de Formulários Server-Side: Os métodos POST de cadastro analisam se há campos vazios e renderizam alertas dinâmicos em Bootstrap na tela do usuário caso faltem dados.
+    Validação de Formulários Server-Side: Os métodos POST de cadastro analisam se há campos vazios e renderizam alertas dinâmicos em Bootstrap na tela do usuário caso faltem dados.
 
-* Mapeamento Relacional de Adoção: Na tela de Manifestação de Desejo, o sistema consome os vetores em memória para alimentar caixas de seleção dinâmicas (<select>), permitindo associar qualquer adotante       cadastrado a um animal específico.
-
-* Listagens em Tempo Real: Exibição estruturada em formato de tabelas responsivas para todos os dados inseridos em tempo de execução.
+    Mapeamento Relacional de Adoção: Na tela de Manifestação de Desejo, o sistema consome os vetores em memória para alimentar caixas de seleção dinâmicas (<select>), permitindo associar qualquer adotante       cadastrado a um animal específico.
+    
+    Listagens em Tempo Real: Exibição estruturada em formato de tabelas responsivas para todos os dados inseridos em tempo de execução.
 
 🚀 Como Executar o Projeto
 ---
